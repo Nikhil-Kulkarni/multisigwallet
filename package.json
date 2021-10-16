@@ -1,0 +1,26 @@
+{
+  "name": "multisigwallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "verify-test": "npx hardhat verify --constructor-args arguments.js --network ropsten 0x29699e85B6F10132312309736fc708Ff5ff37E53",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.6",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "@openzeppelin/contracts": "^4.3.2",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.4.0",
+    "ethers": "^5.4.6",
+    "hardhat": "^2.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "web3": "^1.6.0"
+  }
+}
